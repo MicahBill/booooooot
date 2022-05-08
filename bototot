@@ -1,0 +1,21 @@
+import keyboard
+import time
+
+while True:
+    time.sleep(25)
+    keyboard.write("ق1")
+	keyboard.press("enter")
+	keyboard.release("enter")
+    time.sleep(1)
+    keyboard.write("تسبب النظام العالمي المتغير الذي جلبته الحرب وخاصة نمو القوة")
+	keyboard.press("enter")
+	keyboard.release("enter")
+	
+	time.sleep(25)
+	keyboard.write("ق1")
+	keyboard.press("enter")
+	keyboard.release("enter")
+    time.sleep(1)
+	keyboard.write("في اليابان وألمانيا حيث")
+	keyboard.press("enter")
+	keyboard.release("enter")
