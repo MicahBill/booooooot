@@ -1,0 +1,15 @@
+import keyboard, random, time
+while True:
+    time.sleep(5)
+    keyboard.write("ق2")
+    keyboard.press_and_release("enter")
+    time.sleep(0.5)
+    keyboard.write("ق1")
+    keyboard.press_and_release("enter")
+    time.sleep(0.5)
+    with open("m8alat.txt", "r", encoding="utf-8") as file:
+        allText = file.read()
+        lines = list(map(str, allText.splitlines()))
+        keyboard.write(random.sample(lines, k=1))
+        keyboard.press_and_release("enter")
+        time.sleep(19)
